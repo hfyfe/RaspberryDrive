@@ -2,7 +2,7 @@ import os
 from time import sleep
 
 def start_server():
-  os.system('ssh pi@192.168.2.4 python python-libs/RaspberryDrive/driving_server.py &')
+  os.system('ssh pi@192.168.2.4 python python-libs/RaspberryDrive/pi_remote_control/driving_server.py &')
   exit()
   # count = 0
   # while count < 2:
@@ -12,7 +12,7 @@ def start_server():
 
 def send_ssh_server_start(count):
   try:
-    os.system('ssh pi@192.168.2.4 python python-libs/RaspberryDrive/driving_server.py &')
+    os.system('ssh pi@192.168.2.4 python python-libs/RaspberryDrive/pi_remote_control/driving_server.py &')
     return
   except:
     sleep(count + 1)
