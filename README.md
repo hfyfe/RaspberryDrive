@@ -19,3 +19,8 @@ The car sends a picture to the server. The server then analyzes and sends the co
 
 ### License
 Raspberry Drive is released under the [MIT License](https://opensource.org/licenses/MIT)
+
+## To Run
+
+1. Clone Repo
+2. Run python controller/controller.py
