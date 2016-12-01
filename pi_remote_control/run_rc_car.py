@@ -21,7 +21,7 @@ class PiCar(object):
     	   self.stop()
      	   GPIO.output(self.pins['forward'],1)
      	   sleep(float(time))
-     	   stopelf.stop()
+     	   self.stop()
 
 	def go_backward(self,time):
         	self.stop()
